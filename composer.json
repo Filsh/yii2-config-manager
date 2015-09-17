@@ -1,0 +1,28 @@
+{
+    "name": "filsh/yii2-config-manager",
+    "description": "Config manager based on bupy7/yii2-config",
+    "keywords": ["yii", "extension"],
+    "homepage": "https://github.com/Filsh/yii2-config-manager.git",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "imaliy.filsh@gmail.com",
+        "source": "https://github.com/Filsh/yii2-config-manager.git"
+    },
+    "authors": [
+        {
+            "name": "Igor Maliy",
+            "email": "imaliy.filsh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bupy7/yii2-config": "~1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "filsh\\config\\": ""
+        }
+    }
+}
